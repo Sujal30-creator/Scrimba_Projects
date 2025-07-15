@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    max-width: 300px;
+    font-family: "Smythe";
+} 
+
+img{
+    width: 100%;
+    height: 130px;
+}
+
+main{
+    height: 200px;
+    margin: 20px; 
+}
+
+
+.food_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #D2D2D2;
+    height: 80px;
+}
+
+.flex-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-desc{
+    width: 150px;
+    margin: 10px;     
+}
+
+.food-desc>h1{
+    font-size: medium;
+    margin: 5px 0;
+}
+.food-desc>h2{
+    font-size: medium;
+    margin: 5px 0;
+    padding-top: 5px;
+}
+
+.food-desc>p{
+    font-size: small;
+    font-weight: lighter;
+    color: #8B8B8B;
+    margin: 5px 0;
+    
+}
+
+
+.add-btn{
+    margin: 0;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #D2D2D2;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+    background-color: #16DB99;
+    color: white;
+}
+
+.card-element{
+    display: none;
+    font-family: Verdana, Geneva, Tahoma;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.card-element > h1{
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: light;   
+}
+
+.card-form > input{
+    margin: 7px;
+    padding: 8px;
+    font-family: inherit;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.pay-btn{
+    width: 95%;
+    margin-top: 25px;
+    padding: 7px;
+    color: white;
+    background-color: #16DB99;
+    border: none;
+    border-radius: 2px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.order-summary{
+    margin-top: 50px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-order{
+    width: 100%;
+    background-color: #16DB99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.order-summary > h1{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.bill-element{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.food-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin: 0;
+    height: 20px;
+}
+
+.item-order{
+    display: flex;
+}
+
+.item-order > h1{
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-weight: 100;
+    
+}
+
+.item-order > button{
+    border: none;
+    font-family: inherit;
+    background-color: inherit;
+    color: #BBBBBB;
+    font-size: 12px;
+    
+}
+
+.item-order > button:hover{
+    color: red;
+    font-weight: 500;
+}
+
+.thank-you{
+    background-color: #ECFDF5;
+    color: #065F46;
+    font-size: medium;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px
+}
